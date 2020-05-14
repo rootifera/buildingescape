@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "buildingescape (Debug)",
+			"request": "launch",
+			"preLaunchTask": "buildingescape Win64 Debug Build",
+			"program": "C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "buildingescape (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "buildingescape Win64 DebugGame Build",
+			"program": "C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "buildingescape (Development)",
+			"request": "launch",
+			"preLaunchTask": "buildingescape Win64 Development Build",
+			"program": "C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "buildingescape (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "buildingescape Win64 Shipping Build",
+			"program": "C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "buildingescape (Test)",
+			"request": "launch",
+			"preLaunchTask": "buildingescape Win64 Test Build",
+			"program": "C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "buildingescapeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "buildingescapeEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\buildingescape.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "buildingescapeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "buildingescapeEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\buildingescape.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "buildingescapeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "buildingescapeEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\buildingescape.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\Omur\\Desktop\\Unreal Projects\\buildingescape\\buildingescape.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+		}
+	]
+}
